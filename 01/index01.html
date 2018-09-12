@@ -7,7 +7,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-
+<style>
+    h1:hover{
+        color :red;
+    }
+    h1{
+        transition:all 1s;
+        animation: colorchange 5s;
+    }
+    @keyframes colorchange{
+        100%{
+            color:yellow;
+        }
+        75%{
+            color :blue;
+        }
+        50%{
+            color :aqua;
+        }
+        25%{
+            color:chartreuse;
+        }
+    }
+</style>
 <body>
     <h1>HelloWord</h1>
 </body>
